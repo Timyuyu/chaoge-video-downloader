@@ -1,0 +1,7 @@
+{
+  "ytdlp": "C:\\path\\to\\yt-dlp.exe",
+  "ffmpeg_dir": "C:\\path\\to\\ffmpeg\\bin",
+  "tools_dir": "C:\\path\\to\\project",
+  "outdir": "C:\\path\\to\\Downloads",
+  "project_dir": "C:\\path\\to\\project"
+}

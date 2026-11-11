@@ -1,0 +1,10 @@
+# 运行时依赖（网页版与桌面版共用同一套后端 app.py）
+yt-dlp>=2024.10.22        # 本项目实测版本：2026.10.26
+
+# 打包 exe 时额外需要（可选）
+#   pip install pyinstaller          # 实测 6.22.3
+
+# 外部工具（不是 pip 包，需自行安装，然后在 config.json 里指路径）
+#   ffmpeg / ffprobe   https://ffmpeg.org/download.html   （合成抖音分段流、生成预览、ffprobe 校验）
+#   deno               https://github.com/denoland/deno/releases  （yt-dlp 需要 JS 解算的站点才用到）
+#   Microsoft Edge     抖音提取必需（程序用本机 Edge 无头渲染 + CDP 捕获播放地址）

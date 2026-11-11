@@ -1,0 +1,33 @@
+# 本机私有配置与运行时数据
+config.json
+downloads/
+.previews/
+超哥视频下载数据/
+tmp*/
+
+# 浏览器 profile / 令牌缓存 / 诊断日志
+.edge_*/
+.ttwid_cache
+.douyin_debug.log
+*cookies_gen.txt
+douyin_cookies.txt
+instagram_cookies.txt
+
+# Python 与打包产物
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.manifest
+*.pyinstaller
+
+# 外部工具副本（体积大，请自行安装并在 config.json 指路径）
+tools/
+
+# 本地测试产物与内部文档
+.hermes-qa/
+验收流程*.json
+plain.html
+任务交接.md
+逆向可行性报告.md
+*.log
